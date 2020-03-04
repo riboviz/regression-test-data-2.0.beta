@@ -1,0 +1,376 @@
+# lsb_release -a
+No LSB modules are available.
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04 LTS
+Release:	18.04
+Codename:	bionic
+# python --version
+Python 3.7.3
+# R --version
+R version 3.4.4 (2018-03-15) -- "Someone to Lean On"
+Copyright (C) 2018 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under the terms of the
+GNU General Public License versions 2 or 3.
+For more information about these matters see
+http://www.gnu.org/licenses/.
+
+# hisat2 --version
+/home/ubuntu/hisat2-2.1.0/hisat2-align-s version 2.1.0
+64-bit
+Built on login-node03
+Wed Jun  7 15:53:42 EDT 2017
+Compiler: gcc version 4.8.2 (GCC) 
+Options: -O3 -m64 -msse2 -funroll-loops -g3 -DPOPCNT_CAPABILITY
+Sizeof {int, long, long long, void*, size_t, off_t}: {4, 8, 8, 8, 8, 8}
+# bowtie --version
+/home/ubuntu/bowtie-1.2.2-linux-x86_64/bowtie-align-s version 1.2.2
+64-bit
+Built on 462e5beae518
+Mon Dec 11 19:27:01 UTC 2017
+Compiler: gcc version 4.8.2 20140120 (Red Hat 4.8.2-15) (GCC) 
+Options: -O3 -m64  -Wl,--hash-style=both -DWITH_TBB -DPOPCNT_CAPABILITY -g -O2 -fvisibility=hidden -I/hbb_exe/include   -g -O2 -fvisibility=hidden -I/hbb_exe/include  
+Sizeof {int, long, long long, void*, size_t, off_t}: {4, 8, 8, 8, 8, 8}
+# umi_tools -v
+UMI-tools version: 1.0.1
+# pip list
+Package                       Version   
+----------------------------- ----------
+alabaster                     0.7.12    
+argcomplete                   1.11.1    
+argh                          0.26.2    
+asn1crypto                    0.24.0    
+astroid                       2.3.3     
+attrs                         19.3.0    
+Babel                         2.8.0     
+biopython                     1.76      
+bz2file                       0.98      
+certifi                       2019.11.28
+cffi                          1.12.3    
+chardet                       3.0.4     
+conda                         4.8.2     
+conda-package-handling        1.3.11    
+coverage                      5.0       
+cryptography                  2.7       
+cutadapt                      1.18      
+cycler                        0.10.0    
+docutils                      0.16      
+future                        0.18.2    
+gffutils                      0.10.1    
+gitdb2                        2.0.6     
+GitPython                     3.0.5     
+h5py                          2.10.0    
+idna                          2.8       
+imagesize                     1.2.0     
+importlib-metadata            1.5.0     
+isort                         4.3.21    
+Jinja2                        2.11.1    
+kiwisolver                    1.1.0     
+lazy-object-proxy             1.4.3     
+libarchive-c                  2.8       
+MarkupSafe                    1.1.1     
+matplotlib                    3.1.3     
+mccabe                        0.6.1     
+mkl-fft                       1.0.15    
+mkl-random                    1.1.0     
+mkl-service                   2.3.0     
+more-itertools                8.2.0     
+numpy                         1.18.1    
+packaging                     20.1      
+pandas                        1.0.1     
+pip                           19.1.1    
+pluggy                        0.13.1    
+py                            1.8.1     
+pycodestyle                   2.5.0     
+pycosat                       0.6.3     
+pycparser                     2.19      
+pyfaidx                       0.5.8     
+Pygments                      2.5.2     
+pylint                        2.4.4     
+pyOpenSSL                     19.0.0    
+pyparsing                     2.4.6     
+pysam                         0.15.3    
+PySocks                       1.7.0     
+pytest                        5.3.5     
+pytest-cov                    2.8.1     
+python-dateutil               2.8.1     
+pytz                          2019.3    
+PyYAML                        5.3       
+regex                         2020.1.8  
+requests                      2.22.0    
+ruamel-yaml                   0.15.46   
+scipy                         1.4.1     
+setuptools                    41.0.1    
+simplejson                    3.17.0    
+six                           1.12.0    
+smmap2                        2.0.5     
+snowballstemmer               2.0.0     
+Sphinx                        2.4.3     
+sphinxcontrib-applehelp       1.0.2     
+sphinxcontrib-devhelp         1.0.2     
+sphinxcontrib-htmlhelp        1.0.3     
+sphinxcontrib-jsmath          1.0.1     
+sphinxcontrib-qthelp          1.0.3     
+sphinxcontrib-serializinghtml 1.1.4     
+tornado                       6.0.3     
+tqdm                          4.32.1    
+umi-tools                     1.0.1     
+urllib3                       1.24.2    
+wcwidth                       0.1.8     
+wheel                         0.33.4    
+wrapt                         1.11.2    
+xopen                         0.7.3     
+zipp                          2.2.0     
+# conda list
+# packages in environment at /home/ubuntu/miniconda3:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+alabaster                 0.7.12                   pypi_0    pypi
+argcomplete               1.11.1                   pypi_0    pypi
+argh                      0.26.2                   pypi_0    pypi
+asn1crypto                0.24.0                   py37_0  
+astroid                   2.3.3                    py37_0  
+attrs                     19.3.0                     py_0  
+babel                     2.8.0                    pypi_0    pypi
+biopython                 1.76             py37h7b6447c_0    anaconda
+blas                      1.0                         mkl  
+bz2file                   0.98                     py37_1  
+bzip2                     1.0.8                h7b6447c_0  
+ca-certificates           2020.1.1                      0    anaconda
+certifi                   2019.11.28               py37_0    anaconda
+cffi                      1.12.3           py37h2e261b9_0  
+chardet                   3.0.4                    py37_1  
+conda                     4.8.2                    py37_0    anaconda
+conda-package-handling    1.3.11                   py37_0  
+coverage                  5.0              py37h7b6447c_0  
+cryptography              2.7              py37h1ba5d50_0  
+curl                      7.68.0               hbc83047_0  
+cutadapt                  1.18             py37h14c3975_1    bioconda
+cycler                    0.10.0                   py37_0  
+docutils                  0.16                     pypi_0    pypi
+freetype                  2.9.1                h8a8886c_1  
+future                    0.18.2                   py37_0  
+gffutils                  0.10.1                   pypi_0    pypi
+gitdb2                    2.0.6                      py_0  
+gitpython                 3.0.5                      py_0  
+h5py                      2.10.0           py37h7918eee_0    anaconda
+hdf5                      1.10.4               hb1b8bf9_0    anaconda
+htslib                    1.9                  ha228f0b_7    bioconda
+icu                       58.2                 h9c2bf20_1  
+idna                      2.8                      py37_0  
+imagesize                 1.2.0                    pypi_0    pypi
+importlib_metadata        1.5.0                    py37_0  
+intel-openmp              2020.0                      166  
+isort                     4.3.21                   py37_0  
+jinja2                    2.11.1                   pypi_0    pypi
+kiwisolver                1.1.0            py37he6710b0_0  
+krb5                      1.17.1               h173b8e3_0  
+lazy-object-proxy         1.4.3            py37h7b6447c_0  
+libarchive                3.3.3                h5d8350f_5  
+libcurl                   7.68.0               h20c2e04_0  
+libdeflate                1.0                  h14c3975_1    bioconda
+libedit                   3.1.20181209         hc058e9b_0  
+libffi                    3.2.1                hd88cf55_4  
+libgcc-ng                 9.1.0                hdf63c60_0  
+libgfortran-ng            7.3.0                hdf63c60_0  
+libpng                    1.6.37               hbc83047_0  
+libssh2                   1.8.2                h1ba5d50_0  
+libstdcxx-ng              9.1.0                hdf63c60_0  
+libxml2                   2.9.9                hea5a465_1  
+lz4-c                     1.8.1.2              h14c3975_0  
+lzo                       2.10                 h49e0be7_2  
+markupsafe                1.1.1                    pypi_0    pypi
+matplotlib-base           3.1.3            py37hef1b27d_0  
+mccabe                    0.6.1                    py37_1  
+mkl                       2020.0                      166  
+mkl-service               2.3.0            py37he904b0f_0  
+mkl_fft                   1.0.15           py37ha843d7b_0  
+mkl_random                1.1.0            py37hd6b4f25_0  
+more-itertools            8.2.0                      py_0  
+ncurses                   6.1                  he6710b0_1  
+numpy                     1.18.1           py37h4f9e942_0  
+numpy-base                1.18.1           py37hde5b4d6_1  
+openssl                   1.1.1                h7b6447c_0    anaconda
+packaging                 20.1                       py_0  
+pandas                    1.0.1            py37h0573a6f_0  
+pigz                      2.4                  h84994c4_0  
+pip                       19.1.1                   py37_0  
+pluggy                    0.13.1                   py37_0  
+py                        1.8.1                      py_0  
+pycodestyle               2.5.0                    py37_0  
+pycosat                   0.6.3            py37h14c3975_0  
+pycparser                 2.19                     py37_0  
+pyfaidx                   0.5.8                    pypi_0    pypi
+pygments                  2.5.2                    pypi_0    pypi
+pylint                    2.4.4                    py37_0  
+pyopenssl                 19.0.0                   py37_0  
+pyparsing                 2.4.6                      py_0  
+pysam                     0.15.3           py37hda2845c_1    bioconda
+pysocks                   1.7.0                    py37_0  
+pytest                    5.3.5                    py37_0  
+pytest-cov                2.8.1                      py_0  
+python                    3.7.3                h0371630_0  
+python-dateutil           2.8.1                      py_0  
+python-libarchive-c       2.8                     py37_11  
+pytz                      2019.3                     py_0  
+pyyaml                    5.3              py37h7b6447c_0  
+readline                  7.0                  h7b6447c_5  
+regex                     2020.1.8         py37h7b6447c_0  
+requests                  2.22.0                   py37_0  
+ruamel_yaml               0.15.46          py37h14c3975_0  
+samtools                  1.9                 h10a08f8_12    bioconda
+scipy                     1.4.1            py37h0b6359f_0  
+setuptools                41.0.1                   py37_0  
+simplejson                3.17.0                   pypi_0    pypi
+six                       1.12.0                   py37_0  
+smmap2                    2.0.5                    py37_0  
+snowballstemmer           2.0.0                    pypi_0    pypi
+sphinx                    2.4.3                    pypi_0    pypi
+sphinxcontrib-applehelp   1.0.2                    pypi_0    pypi
+sphinxcontrib-devhelp     1.0.2                    pypi_0    pypi
+sphinxcontrib-htmlhelp    1.0.3                    pypi_0    pypi
+sphinxcontrib-jsmath      1.0.1                    pypi_0    pypi
+sphinxcontrib-qthelp      1.0.3                    pypi_0    pypi
+sphinxcontrib-serializinghtml 1.1.4                    pypi_0    pypi
+sqlite                    3.29.0               h7b6447c_0  
+tk                        8.6.8                hbc83047_0  
+tornado                   6.0.3            py37h7b6447c_3  
+tqdm                      4.32.1                     py_0  
+umi_tools                 1.0.1            py37h516909a_1    bioconda
+urllib3                   1.24.2                   py37_0  
+wcwidth                   0.1.8                      py_0  
+wheel                     0.33.4                   py37_0  
+wrapt                     1.11.2           py37h7b6447c_0  
+xopen                     0.7.3                      py_0    bioconda
+xz                        5.2.4                h14c3975_4  
+yaml                      0.1.7                had09818_2  
+zipp                      2.2.0                      py_0  
+zlib                      1.2.11               h7b6447c_3  
+zstd                      1.3.7                h0b5b093_0  
+# Rscript install/list-r-packages.R
+              Package   Version
+              askpass       1.1
+           assertthat     0.2.1
+            backports     1.1.4
+            base64enc     0.1-3
+                   BH  1.69.0-1
+              Biobase    2.38.0
+         BiocGenerics    0.24.0
+        BiocInstaller    1.28.0
+         BiocParallel    1.12.0
+           Biostrings    2.46.0
+               bitops     1.0-6
+                callr     3.4.0
+                  cli     1.1.0
+                clipr     0.7.0
+           colorspace     1.4-1
+               crayon     1.3.4
+            crosstalk     1.0.0
+                 curl       4.2
+            cyclocomp     1.1.0
+           data.table    1.12.2
+         DelayedArray     0.4.1
+                 desc     1.2.0
+               digest    0.6.21
+                dplyr     0.8.3
+             ellipsis     0.3.0
+             evaluate      0.14
+                fansi     0.4.0
+              formatR       1.7
+        futile.logger     1.4.3
+       futile.options     1.0.1
+         GenomeInfoDb    1.14.0
+     GenomeInfoDbData     1.0.0
+    GenomicAlignments    1.14.2
+        GenomicRanges    1.30.3
+               getopt    1.20.3
+              ggplot2     3.2.1
+                git2r    0.26.1
+                 glue     1.3.1
+               gtable     0.3.0
+               hexbin    1.27.3
+                highr       0.8
+                  hms     0.5.1
+            htmltools     0.3.6
+          htmlwidgets       1.3
+               httpuv     1.5.2
+                 httr     1.4.1
+              hwriter     1.3.2
+              IRanges    2.12.0
+             jsonlite       1.6
+                knitr      1.26
+             labeling       0.3
+             lambda.r     1.2.4
+                later     0.8.0
+         latticeExtra    0.6-28
+             lazyeval     0.2.2
+            lifecycle     0.1.0
+                lintr     2.0.0
+             magrittr       1.5
+             markdown       1.1
+          matrixStats    0.55.0
+                 mime       0.7
+              munsell     0.5.0
+              openssl     1.4.1
+             optparse     1.6.4
+               pillar     1.4.2
+             pkgbuild     1.0.6
+            pkgconfig     2.0.3
+              pkgload     1.0.2
+                plogr     0.2.0
+               plotly     4.9.0
+                 plyr     1.8.4
+               praise     1.0.0
+          prettyunits     1.0.2
+             processx     3.4.1
+             promises     1.0.1
+                   ps     1.3.0
+                purrr     0.3.2
+                   R6     2.4.0
+         RColorBrewer     1.1-2
+                 Rcpp     1.0.2
+             RcppRoll     0.3.0
+                RCurl 1.95-4.12
+                readr     1.3.1
+             rematch2     2.1.0
+              remotes     2.1.0
+             reshape2     1.4.3
+                  rex     1.1.2
+                rhdf5    2.22.0
+                rlang     0.4.2
+            rprojroot     1.3-2
+            Rsamtools    1.30.0
+           rstudioapi      0.10
+          rtracklayer    1.38.3
+            S4Vectors    0.16.0
+               scales     1.0.0
+                shiny     1.3.2
+            ShortRead    1.36.1
+                 snow     0.4-3
+          sourcetools     0.1.7
+           stringdist   0.9.5.5
+              stringi     1.4.3
+              stringr     1.4.0
+               styler     1.2.0
+ SummarizedExperiment     1.8.1
+                  sys       3.3
+             testthat     2.3.1
+               tibble     2.1.3
+                tidyr     1.0.0
+           tidyselect     0.2.5
+                 utf8     1.1.4
+                vctrs     0.2.0
+          viridisLite     0.3.0
+                withr     2.1.2
+                 xfun      0.11
+                  XML 3.98-1.20
+                 xml2     1.2.2
+         xmlparsedata     1.0.3
+               xtable     1.8-4
+              XVector    0.18.0
+                 yaml     2.2.0
+              zeallot     0.1.0
+             zlibbioc    1.24.0

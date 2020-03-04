@@ -1,0 +1,22 @@
+Created by: RiboViz
+Date: 2020-03-04 05:50:09.246295
+Command-line tool: /home/ubuntu/riboviz/riboviz/tools/count_reads.py
+File: /home/ubuntu/riboviz/riboviz/tools/count_reads.py
+Version: commit 0ecd69ec0786eaeee78c4ce0999f4a181c775044 date 2020-03-04 05:45:40-08:00
+
+vignette/input/SRR1042855_s1mi.fastq.gz
+vignette/input/SRR1042864_s1mi.fastq.gz
+vignette/input/example_missing_file.fastq.gz
+[Errno 2] No such file or directory: 'vignette/input/example_missing_file.fastq.gz'
+vignette/tmp/WT3AT/trim.fq
+vignette/tmp/WT3AT/nonrRNA.fq
+vignette/tmp/WT3AT/rRNA_map.sam
+vignette/tmp/WT3AT/unaligned.fq
+vignette/tmp/WT3AT/orf_map.sam
+vignette/tmp/WT3AT/trim_5p_mismatch.tsv
+vignette/tmp/WTnone/trim.fq
+vignette/tmp/WTnone/nonrRNA.fq
+vignette/tmp/WTnone/rRNA_map.sam
+vignette/tmp/WTnone/unaligned.fq
+vignette/tmp/WTnone/orf_map.sam
+vignette/tmp/WTnone/trim_5p_mismatch.tsv
